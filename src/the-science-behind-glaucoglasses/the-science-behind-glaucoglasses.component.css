@@ -1,0 +1,6 @@
+.float-right {
+    float: right;
+    max-width: 300px;
+    margin-left: 2rem;
+    margin-bottom: 2rem;
+}

@@ -1,1 +1,27 @@
 /* You can add global styles to this file, and also import other style files */
+
+h2 {
+    font-size: 2.5rem; /* Adjust as needed */
+}
+
+.large-paragraph {
+    font-size: 1.25rem; /* Match the font size used in the "Our Technology" section */
+    line-height: 1.6; /* Improve readability */
+}
+
+.container {
+    margin-top: 2rem;
+  }
+  
+  h2 {
+    margin-bottom: 1.5rem;
+  }
+  
+  p {
+    margin-bottom: 1rem;
+}
+  
+.small-caption {
+    font-size: 0.875rem; /* Smaller font size for captions */
+    color: #6c757d; /* Optional: Add a lighter color for the caption */
+}
