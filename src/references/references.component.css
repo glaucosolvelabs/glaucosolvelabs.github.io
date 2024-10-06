@@ -1,0 +1,22 @@
+.references-list {
+    list-style-type: none; /* Remove default list styling */
+    padding: 0;
+  }
+  
+  .references-list li {
+    font-size: 1rem;
+    line-height: 1.6;
+    margin-bottom: 0.75rem;
+    padding: 0.5rem;
+    border-left: 3px solid #dee2e6;
+    background-color: #f8f9fa;
+  }
+  
+  .references-list li a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .references-list li a:hover {
+    text-decoration: underline;
+  }

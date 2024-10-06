@@ -1,7 +1,6 @@
 import { Component } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
 import { AboutUsComponent } from "../about-us/about-us.component";
-import { ContactComponent } from "../contact/contact.component";
 import { FooterComponent } from '../footer/footer.component';
 import { HeaderComponent } from '../header/header.component';
 import { ProductShowcaseComponent } from '../product-showcase/product-showcase.component';
@@ -15,7 +14,7 @@ import { ReferencesComponent } from "../references/references.component";
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet, AboutUsComponent, ContactComponent, FooterComponent, HeaderComponent, ProductShowcaseComponent, OurTechnologyComponent, OurUniqueValueComponent, TheScienceBehindGlaucoglassesComponent, ExperimentalResultsComponent, TestimonialsComponent, ReferencesComponent],
+  imports: [RouterOutlet, AboutUsComponent, FooterComponent, HeaderComponent, ProductShowcaseComponent, OurTechnologyComponent, OurUniqueValueComponent, TheScienceBehindGlaucoglassesComponent, ExperimentalResultsComponent, TestimonialsComponent, ReferencesComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
