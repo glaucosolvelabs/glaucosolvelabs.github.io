@@ -1,4 +1,29 @@
 <div class="container my-5">
     <h2>Experimental Results</h2>
-    <p>Results from experiments and studies...</p>
+    <div class="row">
+      <div class="col-md-8">
+        <p class="large-paragraph">
+            After engineering an Arduino-based prototype, experimentation was conducted using the apparatus shown in the image on the right. Since models of the human eye are expensive, the prototype was tested on gelatin phantoms made of gelatin powder and water- an accurate model of biological tissues often used for ultrasound imaging studies. Seven gelatin phantoms, each containing 70 mL of water, with varying gelatin concentrations (10%, 15%, 20%, 25%, 30%, 35%, and 40%) were created to simulate different IOP values of the eye and the ultrasound time of flight and amplitude were extracted for each model. They were then statistically correlated using a linear regression model to the true IOP, which was measured using the iCARE IC100 tonometer, pervasively used in clinics. The results were splendid, yielding a 92% accuracy of IOP correlation with a mean absolute error of solely 5 mmHg. The research paper preprint documenting experimental results is ready to be submitted to Frontiers publication, and the design patent is in the second stage of filing. 
+        </p>
+      </div>
+      <div class="col-md-4 text-center">
+        <h4>Experimental Setup</h4>
+        <img src="assets/experimental-setup.png" class="img-fluid mb-2" alt="Experimental Setup">
+      </div>
+    </div>
+    
+    <div class="row mt-4">
+      <div class="col-md-4 text-center">
+        <img src="assets/figure-2.png" class="img-fluid mb-2" alt="Figure 2">
+        <p class="small-caption"><u>Figure 2: Correlation between corneal displacement and true IOP.</u> Deformation under ultrasound is inversely proportional to IOP with 75.36% correlation.</p>
+      </div>
+      <div class="col-md-4 text-center">
+        <img src="assets/figure-3.png" class="img-fluid mb-2" alt="Figure 3">
+        <p class="small-caption"><u>Figure 3: Correlation between ultrasound amplitude and true IOP.</u> Amplitude, the maximum ultrasound signal reflected, is proportional to IOP with 92.06% correlation.</p>
+      </div>
+      <div class="col-md-4 text-center">
+        <img src="assets/figure-4.png" class="img-fluid mb-2" alt="Figure 4">
+        <p class="small-caption"><u>Figure 4: Correlation between time of ultrasound flight in air and true IOP.</u> The time of flight is inversely proportional to IOP, with an 82.2% correlation.</p>
+      </div>
+    </div>
 </div>
