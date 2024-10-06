@@ -1,12 +1,18 @@
 import { Component } from '@angular/core';
+import { CommonModule } from '@angular/common';
 
 @Component({
   selector: 'app-references',
   standalone: true,
-  imports: [],
+  imports: [CommonModule],
   templateUrl: './references.component.html',
-  styleUrl: './references.component.css'
+  styleUrls: ['./references.component.css']
 })
-export class ReferencesComponent {
 
+export class ReferencesComponent {
+  showAllReferences = false;
+
+  toggleReferences() {
+    this.showAllReferences = !this.showAllReferences;
+  }
 }
