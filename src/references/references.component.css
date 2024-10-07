@@ -37,3 +37,13 @@
     margin-top: 2rem;
 }
   
+.reference-item {
+    transition: box-shadow 0.3s ease-in-out;
+    padding: 10px; /* Optional: Add padding for better visual effect */
+    margin-bottom: 10px; /* Optional: Add margin for spacing between items */
+    border-radius: 5px; /* Optional: Add border-radius for rounded corners */
+}
+  
+.reference-item:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
