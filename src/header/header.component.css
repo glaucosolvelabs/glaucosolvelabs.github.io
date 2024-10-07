@@ -7,3 +7,8 @@
   display: flex !important;
   flex-direction: row !important;
 }
+
+.navbar .navbar-nav .nav-item {
+  font-size: 0.9em; /* Adjust the font size as needed */
+}
+

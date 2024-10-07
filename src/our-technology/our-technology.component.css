@@ -1,5 +1,6 @@
 h3, h4 {
     font-size: 1.75rem; /* Adjust as needed */
+    margin-bottom: 1rem;
 }
 
 .video-container {
@@ -15,3 +16,7 @@ h3, h4 {
     margin-top: 2rem;
 }
   
+.fixed-height {
+    height: 200px; /* Set your desired height */
+    object-fit: cover; /* Maintain aspect ratio */
+}
