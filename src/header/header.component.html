@@ -1,31 +1,33 @@
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
-  <div class="container-fluid">
-    <a class="navbar-brand" href="#">GlaucoSolve Labs</a>
+<nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top" id="navbar">
+  <div class="container">
+    <a class="navbar-brand" href="#" (click)="scrollToSection($event, 'product-showcase')">
+      <img src="assets/favicon.ico" alt="GlaucoSolve Labs" height="40" class="nav-icon">
+    </a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
-    <div class="collapse navbar-collapse" id="navbarNav">
-      <ul class="navbar-nav ms-auto">
+    <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+      <ul class="navbar-nav d-flex flex-row">
         <li class="nav-item">
-          <a class="nav-link" href="#about-us">About Us</a>
+          <a class="nav-link" href="#about-us" (click)="scrollToSection($event, 'about-us')">About Us</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#our-technology">Our Technology</a>
+          <a class="nav-link" href="#our-technology" (click)="scrollToSection($event, 'our-technology')">Our Technology</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#unique-value">Unique Value</a>
+          <a class="nav-link" href="#unique-value" (click)="scrollToSection($event, 'unique-value')">Unique Value</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#science-behind">Science Behind</a>
+          <a class="nav-link" href="#science-behind" (click)="scrollToSection($event, 'science-behind')">Science Behind</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#experimental-results">Experimental Results</a>
+          <a class="nav-link" href="#experimental-results" (click)="scrollToSection($event, 'experimental-results')">Experimental Results</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#testimonials">Testimonials</a>
+          <a class="nav-link" href="#testimonials" (click)="scrollToSection($event, 'testimonials')">Testimonials</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#references">References</a>
+          <a class="nav-link" href="#references" (click)="scrollToSection($event, 'references')">References</a>
         </li>
       </ul>
     </div>

@@ -1,0 +1,18 @@
+.footer {
+    background-color: black; /* Set the background color to black */
+    color: white; /* Ensure text is visible on the black background */
+}
+  
+.text-muted {
+    color: #a0a0a0 !important;
+}
+  
+.footer a {
+    color: #a0a0a0;
+    text-decoration: none;
+}
+  
+.footer a:hover {
+    color: black !important;
+}
+

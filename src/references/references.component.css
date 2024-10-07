@@ -12,11 +12,28 @@
     background-color: #f8f9fa;
 }
   
+#references .btn-show-more {
+    background-color: #2e86c1;
+    border-color: #2e86c1;
+    color: white;
+}
+  
+#references .btn-show-more:hover {
+    background-color: #245c7c; /* Slightly darker shade for hover effect */
+    border-color: #245c7c;
+}
+  
 .references-list li a {
-    color: #007bff;
+    color: #2e86c1;
     text-decoration: none;
 }
   
 .references-list li a:hover {
+    color: #245c7c;
     text-decoration: underline;
 }
+
+.container {
+    margin-top: 2rem;
+}
+  

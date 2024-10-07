@@ -1,9 +1,9 @@
 .navbar {
-    margin-bottom: 2rem;
-  }
-  
-.nav-link {
-    font-size: 1rem;
-    padding: 0.5rem 1rem;
+  transition: transform 0.3s ease-in-out;
+  background-color: black; /* Change the navbar background color to black */
 }
-  
+
+.navbar .navbar-nav {
+  display: flex !important;
+  flex-direction: row !important;
+}
